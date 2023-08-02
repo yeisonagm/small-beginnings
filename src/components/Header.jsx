@@ -30,11 +30,15 @@ export default function Header() {
                             <Link to={'/nosotros'} className="hover:border-b-2 border-gray-700 hover:text-gray-700">Nosotros</Link>
                         </li>
                     </ul>
-
-                    <button className="sm:hidden">
-                        <img src="/images/icons/menu.svg" alt="Menu" />
-                    </button>
                 </div>
+
+                <a href="https://api.whatsapp.com/send/?phone=51948378509&text&type=phone_number&app_absent=0" target="_blank" className="text-xl font-bold px-6 py-3 bg-blue-500 hover:bg-blue-600  active:bg-blue-700 text-white rounded-xl">
+                    Contactar
+                </a>
+                
+                <button className="sm:hidden">
+                    <img src="/images/icons/menu.svg" alt="Menu" />
+                </button>
             </div>
         </nav>
     );
