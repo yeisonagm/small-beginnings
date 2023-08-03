@@ -7,7 +7,7 @@ export default function Header() {
                 <Link to={'/'} className="flex gap-3 items-center">
                     <img src="/images/logo/logo-46px.png" alt="logo" />
                     <div className="flex flex-col">
-                        <span className="text-base sm:text-lg font-bold sm:block ">
+                        <span className="text-base lg:text-2xl font-bold sm:block ">
                             Pequeños <br />
                             Comienzos
                         </span>
@@ -15,7 +15,7 @@ export default function Header() {
                 </Link>
 
                 <div className="flex">
-                    <ul className="flex justify-center items-center [&>li]:hidden sm:[&>li]:block gap-5 md:gap-8 text-lg font-medium">
+                    <ul className="flex justify-center items-center [&>li]:hidden md:[&>li]:block gap-4 lg:gap-6 text-base lg:text-xl font-bold2">
                         <li>
                             <Link to={'/'}
                                 className="hover:border-b-2 border-gray-700 hover:text-gray-700">Inicio</Link>
@@ -32,11 +32,11 @@ export default function Header() {
                     </ul>
                 </div>
 
-                <a href="https://api.whatsapp.com/send/?phone=51948378509&text&type=phone_number&app_absent=0" target="_blank" className="text-xl font-bold px-6 py-3 bg-blue-500 hover:bg-blue-600  active:bg-blue-700 text-white rounded-xl">
+                <a href="https://api.whatsapp.com/send/?phone=51948378509&text&type=phone_number&app_absent=0" target="_blank" className="text-xl font-bold px-6 py-3 bg-blue-500 hover:bg-blue-600 active:bg-blue-700 text-white rounded-xl hidden md:block">
                     Contactar
                 </a>
                 
-                <button className="sm:hidden">
+                <button className="md:hidden">
                     <img src="/images/icons/menu.svg" alt="Menu" />
                 </button>
             </div>
