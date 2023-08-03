@@ -15,7 +15,7 @@ export default function Header() {
                 </Link>
 
                 <div className="flex">
-                    <ul className="flex justify-center items-center [&>li]:hidden sm:[&>li]:block gap-5 md:gap-8 text-lg font-bold">
+                    <ul className="flex justify-center items-center [&>li]:hidden md:[&>li]:block gap-4 lg:gap-6 text-base lg:text-xl font-semibold">
                         <li>
                             <Link to={'/'}
                                 className="hover:border-b-2 border-gray-700 hover:text-gray-700">Inicio</Link>
