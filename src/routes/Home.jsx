@@ -18,7 +18,7 @@ export default function Home() {
                 <Landing />
             </div>
 
-            <div className="w-screen flex justify-center">
+            <div className="flex justify-center">
                 <div className="flex flex-col max-w-screen-2xl font-bold justify-center items-center px-6 py-12 md:py-16 gap-12">
                     <h2 className="text-2xl md:text-[32px] lg:text-[40px] text-center w-full">
                         ¿Por qué somos la mejor opción?
@@ -37,7 +37,7 @@ export default function Home() {
 
 
             {/* Service cards */}
-            <div className="w-screen flex justify-center">
+            <div className="flex justify-center">
                 <main className="flex flex-col max-w-screen-2xl font-bold justify-center items-center px-6 py-12 md:py-16 gap-12">
                     <h2 className="text-2xl md:text-[32px] lg:text-[40px] text-center w-full text-blue-400">
                         Servicios que ofrecemos
@@ -55,7 +55,7 @@ export default function Home() {
                 </main>
             </div>
 
-            <div className="w-screen flex justify-center">
+            <div className="flex justify-center">
                 <SimpleContact
                     number={"+51 948 378 509"}
                     address={"Av. Nuevo Cajamarca 450"} />
