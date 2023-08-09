@@ -4,11 +4,10 @@ import Header from "../components/Header";
 import Landing from "../components/Landing";
 import Benefit from "../components/Benefit";
 import Service from "../components/Service";
+import SimpleContact from "../components/SimpleContact";
 
 import { SERVICES } from "../data/services";
 import { COMPANY_BENEFITS } from "../data/benefits";
-// import { COMPANY_BENEFITS, SERVICES  } from "../data";
-
 
 
 export default function Home() {
@@ -44,7 +43,7 @@ export default function Home() {
                         Servicios que ofrecemos
                     </h2>
 
-                    <div className="w-full flex flex-col items-center gap-4 md:flex-row flex-wrap md:w-[720px] md:gap-8 xl:gap-4 justify-center xl:w-full 2xl:gap-10">
+                    <div className="w-full flex flex-col items-center gap-8 md:flex-row flex-wrap md:w-[720px] xl:gap-4 justify-center xl:w-full 2xl:gap-10">
                         {SERVICES.map((service, index) => (
                             <Service
                                 key={index}
@@ -56,7 +55,11 @@ export default function Home() {
                 </main>
             </div>
 
-            
+            <div className="w-screen flex justify-center">
+                <SimpleContact
+                    number={"+51 948 378 509"}
+                    address={"Av. Nuevo Cajamarca 450"} />
+            </div>
 
             <Footer />
         </>
