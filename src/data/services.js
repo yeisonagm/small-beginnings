@@ -8,6 +8,7 @@ export const SERVICES = [
             'Mejorar la capacidad de concentración, memoria y creatividad',
             'Desarrollo psicomotor (movimientos gruesos y finos)'
         ]
+        // isImageOnRight
     },
     {
         name: 'Psicología Clínica',
