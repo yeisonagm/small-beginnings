@@ -20,7 +20,7 @@ export default function SimpleContact({ number, address }) {
                 <a href="https://goo.gl/maps/Wk5qDAfVrwKiDqYa7" target="_blank" className="flex gap-4 p-4 lg:p-6 rounded-lg border-2 border-[#F1F0F4] items-center md:min-w-[254px] xl:min-w-[294px] max-h-[100px]">
                     <img src="./images/icons/location.png" alt="phone" />
                     <div className="flex flex-col gap-2 text-sm xl:text-base font-medium">
-                        <span className="font-normal">Llámanos</span>
+                        <span className="font-normal">Ubícanos</span>
                         {address}
                     </div>
                 </a>
