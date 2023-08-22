@@ -1,4 +1,4 @@
-import Benefits from "../components/Benefit";
+import { ScrollRestoration } from "react-router-dom";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Landing from "../components/Landing";
@@ -62,6 +62,8 @@ export default function Home() {
             </div>
 
             <Footer />
+
+            <ScrollRestoration/>
         </>
     );
 }

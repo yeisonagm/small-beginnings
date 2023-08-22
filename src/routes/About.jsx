@@ -1,3 +1,4 @@
+import { ScrollRestoration } from "react-router-dom";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import SimpleContact from "../components/SimpleContact";
@@ -19,6 +20,8 @@ export default function About() {
             </div>
 
             <Footer />
+
+            <ScrollRestoration />
         </>
     );
 }

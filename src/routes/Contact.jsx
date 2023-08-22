@@ -1,3 +1,4 @@
+import { ScrollRestoration } from "react-router-dom";
 import ContactCard from "../components/ContactCard";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
@@ -14,6 +15,8 @@ export default function Contact() {
             </div>
 
             <Footer />
+
+            <ScrollRestoration />
         </>
     );
 }

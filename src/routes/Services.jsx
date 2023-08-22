@@ -1,9 +1,11 @@
+import { ScrollRestoration } from "react-router-dom";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import ServiceSection from "../components/ServiceSection";
 import SimpleContact from "../components/SimpleContact";
 
 import { SERVICES } from "../data/services";
+
 
 export default function Services() {
     return (
@@ -39,6 +41,8 @@ export default function Services() {
             </section>
 
             <Footer />
+
+            <ScrollRestoration/>
         </>
     );
 }
