@@ -1,8 +1,12 @@
 export default function ServiceSection({ name, description, points, src, isImageOnRight }) {
     const distribution = isImageOnRight ? "md:flex-row-reverse" : "md:flex-row";
+    const idService = name.replace(' ', '-').
+        normalize('NFD').
+        replace(/[\u0300-\u036f]/g, '').
+        toLowerCase();
 
     return (
-        <article className="flex flex-col w-full gap-4 2xl:w-[1328px]">
+        <article id={idService} className="flex flex-col w-full gap-4 2xl:w-[1328px] scroll-mt-24">
             <div className={`flex flex-col ${distribution} w-full gap-8 md:flex-row justify-between items-center md:min-h-[368px]`}>
                 <img src={`${src}`} alt={`Img ${name}`} className="object-cover w-ful md:w-1/2 xl:w-[612px] md:min-h-[296px] rounded-2xl" />
 
