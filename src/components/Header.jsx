@@ -16,7 +16,7 @@ export default function Header() {
             <div className="max-w-screen-2xl flex w-full flex-col md:flex-row justify-between items-center">
                 <div className="w-full md:w-fit flex justify-between md:justify-normal">
                     <Link to={'/'} className="flex gap-3 items-center">
-                        <img src="/images/logo/logo-46px.png" alt="logo" />
+                        <img src="/images/logo/logo-46px.png" alt="logo" loading="lazy" />
                         <div className="flex flex-col">
                             <span className="text-base lg:text-2xl font-bold sm:block ">
                                 Pequeños <br />
@@ -26,7 +26,7 @@ export default function Header() {
                     </Link>
 
                     <button className=" md:hidden" onClick={handleClick}>
-                        <img src={icon} alt="Menu" />
+                        <img src={icon} alt="Menu" loading="lazy" />
                     </button>
                 </div>
 

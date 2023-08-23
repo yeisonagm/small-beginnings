@@ -13,7 +13,7 @@ function Landing() {
             </div>
             <div className="flex justify-end items-end ">
                 <Link to={'/servicios'} className="text-blue-400 text-sm sm:text-base md:text-lg font-normal flex gap-1 h-full">Leer más
-                    <img className="h-full" src="./images/icons/arrow-right.svg" alt="Arrow right"/>
+                    <img className="h-full" src="./images/icons/arrow-right.svg" loading="lazy" alt="Arrow right"/>
                 </Link>
             </div>
         </div>

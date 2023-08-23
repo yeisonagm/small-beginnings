@@ -8,7 +8,7 @@ export default function ServiceSection({ name, description, points, src, isImage
     return (
         <article id={idService} className="flex flex-col w-full gap-4 2xl:w-[1328px] scroll-mt-24">
             <div className={`flex flex-col ${distribution} w-full gap-8 md:flex-row justify-between items-center md:min-h-[368px]`}>
-                <img src={`${src}`} alt={`Img ${name}`} className="object-cover w-ful md:w-1/2 xl:w-[612px] md:min-h-[296px] rounded-2xl" />
+                <img src={`${src}`} alt={`Img ${name}`} className="object-cover w-ful md:w-1/2 xl:w-[612px] md:min-h-[296px] rounded-2xl" loading="lazy" />
 
                 <div className="flex flex-col gap-4 lg:gap-6 md:max-w-[361px] lg:max-w-[620px] text-[#6C757D]">
                     <div className="flex flex-col items-center gap-6">
@@ -18,7 +18,7 @@ export default function ServiceSection({ name, description, points, src, isImage
 
                     {points.map((point, index) => (
                         <div className="flex gap-3" key={index}>
-                            <img src="./images/icons/check.svg" alt="check" className="w-6 h-6" />
+                            <img src="./images/icons/check.svg" loading="lazy" alt="check" className="w-6 h-6" />
                             <p className="font-medium">{point}</p>
                         </div>
                     ))}

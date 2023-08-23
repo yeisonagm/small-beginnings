@@ -6,7 +6,7 @@ export default function Footer() {
         <footer className="bg-black text-white flex flex-col items-center px-6 md:px-12 py-8 gap-10">
             <div className="max-w-screen-2xl flex flex-col md:flex-row w-full justify-between gap-6">
                 <Link to={'/'} className="flex gap-3 items-center">
-                    <img src="/images/logo/logo-46px.png" alt="logo" />
+                    <img src="/images/logo/logo-46px.png" alt="logo" loading="lazy" />
                     <div className="flex flex-col">
                         <span className="text-lg  font-bold sm:block ">
                             Pequeños <br />
@@ -33,13 +33,13 @@ export default function Footer() {
 
                 <div className="flex gap-3 items-center w-full md:w-auto">
                     <a href="https://www.facebook.com/" target="_blank">
-                        <img src="/images/icons/facebook.svg" alt="Icon Facebook" />
+                        <img src="/images/icons/facebook.svg" alt="Icon Facebook" loading="lazy"/>
                     </a>
                     <a href="https://www.tiktok.com/" target="_blank">
-                        <img src="/images/icons/tiktok.svg" alt="Icon Tiktok" />
+                        <img src="/images/icons/tiktok.svg" alt="Icon Tiktok" loading="lazy"/>
                     </a>
                     <a href="https://www.instagram.com/pequenoscomienzos2023/" target="_blank">
-                        <img src="/images/icons/instagram.svg" alt="Icon Instagram" />
+                        <img src="/images/icons/instagram.svg" alt="Icon Instagram" loading="lazy"/>
                     </a>
                 </div>
             </div>

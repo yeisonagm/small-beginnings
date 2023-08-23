@@ -15,7 +15,7 @@ export default function CompanyProfile() {
                     </div>
 
                     <div className="w-full md:w-2/5 rounded-2xl h-60 md:h-[360px]">
-                        <img src="/images/consultation.webp" alt="Consultation" className="w-full h-full object-cover rounded-2xl" />
+                        <img src="/images/consultation.webp" loading="lazy" alt="Consultation" className="w-full h-full object-cover rounded-2xl" />
                     </div>
                 </div>
             </div>
