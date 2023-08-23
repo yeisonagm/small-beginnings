@@ -8,6 +8,9 @@ export default {
     extend: {
       backgroundImage: {
         'landing': "url('/images/landing.webp')",
+      },
+      fontFamily: {
+        'DMSans': ['DM Sans', 'sans serif'],
       }
     },
   },
