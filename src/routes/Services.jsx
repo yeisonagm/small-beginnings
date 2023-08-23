@@ -36,7 +36,7 @@ export default function Services() {
                         'Talleres Psicológicos para niños, adolescentes, adultos (Atención y Concentración, Habilidades Sociales, Control de Emociones, Autoestima).',
                         'Reclutamiento de Personal y prevención de riesgos laborales.'
                     ]}
-                    src={"./images/services/patient-care.png"}
+                    src={"./images/services/patient-care.jpg"}
                     isImageOnRight={true} />
             </section>
 

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Landing() {
     return (
-        <div className="h-full bg-landing-desktop bg-cover bg-center flex flex-col px-6 md:px-14 py-10 md:py-20 lg:p-32 justify-end">
+        <div className="h-full bg-landing bg-cover bg-center flex flex-col px-6 md:px-14 py-10 md:py-20 lg:p-32 justify-end">
             <div className="flex flex-col items-start justify-start w-full md:w-4/5 h-1/2 sm:h-3/5 lg:px-14">
                 <p className="text-2xl sm:text-4xl lg:text-5xl text-white font-bold mb-6">
                     <span>Centro Psicológico Integral</span><br />

@@ -5,7 +5,7 @@ export default function ContactCard() {
 
             <div className="flex flex-col xl:flex-row-reverse gap-4 md:gap-6 xl:gap-12">
                 <div className="w-full rounded-lg">
-                    <img src="/images/map.png" alt="mapa" className="w-full max-h-[310px] lg:max-h-[420px] object-cover rounded-lg" />
+                    <img src="/images/map.webp" alt="mapa" className="w-full max-h-[310px] lg:max-h-[420px] object-cover rounded-lg" />
                 </div>
 
                 <div className="w-full xl:w-1/3 flex flex-col gap-8 md:gap-12">

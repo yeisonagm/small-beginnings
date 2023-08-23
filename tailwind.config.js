@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'landing-desktop': "url('/images/landing-desktop.png')",
+        'landing': "url('/images/landing.webp')",
       }
     },
   },
