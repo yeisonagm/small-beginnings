@@ -9,7 +9,7 @@ export default function CompanyProfile() {
                             <p className="mt-4">Nuestros servicios están diseñados para satisfacer las necesidades de niños, adolescentes y adultos; cada persona recibe un trato cálido y respetuoso, acompañándolos en su proceso de crecimiento y brindándoles las herramientas necesarias para alcanzar una vida plena y satisfactoria; su bienestar es nuestra meta constante.</p>
                         </section>
 
-                        <a href="https://api.whatsapp.com/send/?phone=51948378509&text&type=phone_number&app_absent=0" target="_blank" className="md:text-xl font-normal px-4 py-2 bg-[#00b4e3] hover:bg-[#008cc3] active:bg-[#0069a3] text-white rounded-xl">
+                        <a href="https://api.whatsapp.com/send/?phone=51920530130&text&type=phone_number&app_absent=0" target="_blank" className="md:text-xl font-normal px-4 py-2 bg-[#00b4e3] hover:bg-[#008cc3] active:bg-[#0069a3] text-white rounded-xl">
                             Reserva una cita
                         </a>
                     </div>
