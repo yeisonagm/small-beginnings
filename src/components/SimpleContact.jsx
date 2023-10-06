@@ -10,7 +10,7 @@ export default function SimpleContact({ number, address }) {
             </div>
 
             <div className="flex flex-col lg:flex-row gap-4 lg:gap-8 justify-evenly">
-                <a href="https://api.whatsapp.com/send/?phone=51948378509&text&type=phone_number&app_absent=0" target="_blank" className="flex gap-4 p-4 md:p-6 rounded-lg border-2 border-[#F1F0F4] items-center md:min-w-[254px] xl:min-w-[294px] max-h-[100px]">
+                <a href="https://api.whatsapp.com/send/?phone=51920530130&text&type=phone_number&app_absent=0" target="_blank" className="flex gap-4 p-4 md:p-6 rounded-lg border-2 border-[#F1F0F4] items-center md:min-w-[254px] xl:min-w-[294px] max-h-[100px]">
                     <img src="./images/icons/phone.png" alt="phone" loading="lazy" />
                     <div className="flex flex-col gap-2 text-sm xl:text-base font-medium">
                         <span className="font-normal">Llámanos</span>

@@ -16,7 +16,7 @@ export default function ContactCard() {
                         </section>
                         <section>
                             <p className="text-[#ADB5BD] md:text-xl font-bold mb-4 md:mb-6">Teléfono</p>
-                            <span className="md:text-xl font-medium">+51 948 378 509</span>
+                            <span className="md:text-xl font-medium">+51 920 530 130</span>
                         </section>
                         <section>
                             <p className="text-[#ADB5BD] md:text-xl font-bold mb-4 md:mb-6">Email</p>

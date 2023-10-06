@@ -25,7 +25,7 @@ export default function Services() {
 
                 <div className="flex justify-center">
                     <SimpleContact
-                        number={"+51 948 378 509"}
+                        number={"+51 920 530 130"}
                         address={"Av. Nuevo Cajamarca 450"} />
                 </div>
 
