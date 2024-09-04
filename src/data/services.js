@@ -24,9 +24,9 @@ export const SERVICES = [
         description: 'Entender cómo las personas aprenden y se desarrollan en contextos educativos, aplicando los principios y métodos de la psicología.',
         src: '/images/services/educational-psychology.jpg',
         points: [
-            'Evaluación psicológica y tratamiento psicológico (A).',
-            'Diagnóstico y clasificación de trastornos mentales (A).',
-            'Prevención de la salud mental e investigación en psicología clínica (A).'
+            'Evaluación de dificultades de aprendizaje y adaptación escolar.',
+            'Intervenciones para mejorar el rendimiento académico y el bienestar emocional.',
+            'Apoyo en la creación de ambientes educativos inclusivos y efectivos.'
         ]
     },
     {
@@ -34,9 +34,9 @@ export const SERVICES = [
         description: 'Identificación y clasificación de síntomas que tiene el pacientes como puede ser un trastorno o una condición psicológica.',
         src: '/images/services/clinical-diagnosis.jpg',
         points: [
-            'Evaluación psicológica y tratamiento psicológico (A).',
-            'Diagnóstico y clasificación de trastornos mentales (A).',
-            'Prevención de la salud mental e investigación en psicología clínica (A).'
+            'Realización de pruebas y entrevistas para identificar trastornos psicológicos.',
+            'Interpretación de resultados y formulación de diagnósticos precisos.',
+            'Elaboración de planes de tratamiento basados en diagnósticos clínicos.'
         ]
     },
     {
@@ -44,9 +44,9 @@ export const SERVICES = [
         description: 'Comprender y mejorar la eficacia, el bienestar y el desarrollo de las personas en el ámbito laboral y organizacional.',
         src: '/images/services/organizational-psychology.jpg',
         points: [
-            'Evaluación psicológica y tratamiento psicológico (A).',
-            'Diagnóstico y clasificación de trastornos mentales (A).',
-            'Prevención de la salud mental e investigación en psicología clínica (A).'
+            'Análisis y mejora del clima laboral para aumentar la productividad.',
+            'Desarrollo de programas de bienestar y motivación para empleados.',
+            'Apoyo en la gestión de conflictos y desarrollo de liderazgo en la organización.'
         ]
     },
     {
@@ -54,9 +54,9 @@ export const SERVICES = [
         description: 'Programas de formación y desarrollo que tienen como objetivo mejorar las habilidades y competencias de las personas.',
         src: '/images/services/trainings.jpg',
         points: [
-            'Evaluación psicológica y tratamiento psicológico (A).',
-            'Diagnóstico y clasificación de trastornos mentales (A).',
-            'Prevención de la salud mental e investigación en psicología clínica (A).'
+            'Diseño e implementación de programas de formación específicos.',
+            'Mejora de competencias técnicas y de habilidades interpersonales.',
+            'Evaluación de impacto de las capacitaciones en el desempeño laboral.'
         ]
     }
 ];
